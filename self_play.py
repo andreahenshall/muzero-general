@@ -184,7 +184,6 @@ class SelfPlay:
 
     def close_game(self):
         print(f"I'm closing the game!") ## Just for github practice
-        print(f"So many mistakes!") ## Also practice
         self.game.close()
 
     def select_opponent_action(self, opponent, stacked_observations):
